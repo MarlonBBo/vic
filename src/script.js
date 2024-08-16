@@ -13,7 +13,7 @@ btn.addEventListener('click', ()=>{
 
     async function delay(){
         
-            for(let i = 0; i < 50; i++){
+            for(let i = 0; i < 100; i++){
                 setTimeout(()=> {
         
                 const p = document.createElement("p")
