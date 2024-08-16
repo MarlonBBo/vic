@@ -8,7 +8,7 @@ const coracao = document.getElementById('coracao')
 btn.addEventListener('click', ()=>{
     
     const div = document.createElement("div")
-    div.className = "flex flex-col items-center text-rose-600 gap-3"
+    div.className = "flex flex-col items-center gap-3 p-3 "
     carta.appendChild(div)
 
     async function delay(){
@@ -18,7 +18,7 @@ btn.addEventListener('click', ()=>{
         
                 const p = document.createElement("p")
                     p.innerHTML = "Eu te amo "
-                    p.className = "font-serif text-2xl text-rose-600" 
+                    p.className = "font-serif text-2xl text-black " 
                 
                 div.append(p)   
                     }, i * 300)
