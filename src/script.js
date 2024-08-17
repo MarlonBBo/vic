@@ -1,8 +1,7 @@
 
 const btn = document.getElementById('btn')
-const corpo = document.getElementById('corpo')
 const carta = document.getElementById('carta2')
-const coracao = document.getElementById('coracao')
+
 
 
 btn.addEventListener('click', ()=>{
